@@ -156,6 +156,38 @@ img{
     padding: 0 150px;
 }
 
+.fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.title p{
+    font-weight: bold;
+}
+
+.alert{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: white;
+    align-items: center ;
+    background-color: #3882F6;
+    width: 700px;
+    height: 150px;
+    padding: 0 30px;
+}
+
+.alert button{
+    border:2px solid white;
+    /* align-self:flex-end ; */
+}
+
+.alert button:hover{
+    background-color: hsl(217, 93%, 73%);
+}
 .footer{
     flex:1;
     display: flex;
