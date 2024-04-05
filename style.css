@@ -197,3 +197,7 @@ img{
     padding: 25px;
     color:white;
 }
+
+blockquote{
+    font-weight: 200;
+}
