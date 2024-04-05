@@ -8,6 +8,42 @@ body {
     display: flex;
     flex-direction: column;
 }
+button{
+    height: 40px;
+    width: 95px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+}
+
+button:hover{
+    background-color: hsl(214, 91%, 65%);
+}
+a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+    cursor: pointer;
+}
+a:hover{
+    color: #ffffffc1;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+
+}
+
+img{
+    height: 300px;
+    width: 465px;
+    border-radius: 10px;
+    max-width: 700px;
+    max-height: 400px;
+    align-self: flex-start;
+    justify-self: flex-start ;
+}
 .first{
     background-color: #1f2937;
     display: flex;
@@ -69,47 +105,41 @@ body {
     padding-left: 100px;
 }
 
-button{
-    height: 40px;
-    width: 95px;
-    border-radius: 5px;
-    background-color: #3882F6;
-    color: white;
-}
-
-button:hover{
-    background-color: hsl(214, 91%, 65%);
-}
-a{
-    text-decoration: none;
-    padding: 0 10px;
-    color: white;
-    cursor: pointer;
-}
-a:hover{
-    color: #ffffffc1;
-}
-ul{
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-
-}
-
-img{
-    height: 300px;
-    width: 550px;
-    border-radius: 10px;
-    max-width: 700px;
-    max-height: 400px;
-    align-self: flex-start;
-    justify-self: flex-start ;
-}
 .second{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
     height: 400px;
-    width: auto;
+    width: 100%;
+    flex-wrap: wrap;flex-direction: column;
+}
+
+.service_text{
+    display: flex;
+    height: 100px;
+    width: 500px;
+    align-items: center;
+    justify-content: center ;
+    font-size: 36px;
+}
+.card{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    
+}
+
+.services{
+    display: flex;
+    gap: 15px;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+    /* object-fit: contain; */
+    border-radius: 100px;
 }
 
 .third{
